@@ -40,21 +40,6 @@ A interface foi projetada para se adaptar a qualquer dispositivo:
 
 ---
 
-## 📸 Demonstração
-
-> *(Substitua pelo link real do projeto no GitHub Pages, se quiser)*
-
-🔗 [Clique aqui para ver o projeto online](https://seunome.github.io/nike-clone)
-
----
-
-## 📷 Screenshots
-
-![Screenshot Desktop](https://via.placeholder.com/1000x600?text=Vers%C3%A3o+Desktop)
-![Screenshot Mobile](https://via.placeholder.com/400x800?text=Vers%C3%A3o+Mobile)
-
----
-
 🧠 Aprendizados
 
 Durante esse projeto, foram aplicadas diversas boas práticas de front-end:
@@ -76,8 +61,8 @@ Durante esse projeto, foram aplicadas diversas boas práticas de front-end:
 
 Quer trocar uma ideia ou dar um feedback?
 
-- 📧 **matheus@email.com**
-- 💼 [LinkedIn - Matheus](https://www.linkedin.com/in/seulink)
+- 📧 **matheusschran12@email.com**
+- 💼 [LinkedIn - Matheus](https://www.linkedin.com/in/matheus-schran12/)
 
 ---
 
