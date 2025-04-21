@@ -2,7 +2,7 @@
 
 Este é um clone moderno e responsivo da página principal da **Nike**, desenvolvido com **HTML5**, **CSS3** e **JavaScript puro**. O projeto foi criado com foco em **design profissional**, **responsividade total** e **experiência visual próxima ao original**.
 
-![Nike Clone Preview]([https://via.placeholder.com/1000x500?text=Prévia+do+Projeto](https://projeto-site-oficial-nike2.netlify.app/)) <!-- Substitua por um print do site se quiser -->
+Link do projeto: ([https://via.placeholder.com/1000x500?text=Prévia+do+Projeto](https://projeto-site-oficial-nike2.netlify.app/))
 
 ---
 
@@ -61,7 +61,7 @@ Durante esse projeto, foram aplicadas diversas boas práticas de front-end:
 
 Quer trocar uma ideia ou dar um feedback?
 
-- 📧 **matheusschran12@email.com**
+- 📧 **matheusschran12@gmail.com**
 - 💼 [LinkedIn - Matheus](https://www.linkedin.com/in/matheus-schran12/)
 
 ---
