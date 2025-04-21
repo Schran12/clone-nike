@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Nike - Produtos e Coleções Exclusivas</title>
+    <link rel="icon" href="img/site.jpg" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+  <!-- TOPO SUPERIOR -->
+  <!-- Esta seção contém links rápidos e logotipos para acesso à informações gerais -->
+  <header class="top-menu">
+    <div class="top-header">
+      <div class="top-left">
+        <img src="img/logo1.svg" alt="Jordan" />
+        <img src="img/logo2.svg" alt="SNKRS" />
+      </div>
+      <div class="top-right">
+        <a href="#">Acessibilidade</a><span>|</span>
+        <a href="#">Nike Journal</a><span>|</span>
+        <a href="#">Ajuda</a><span>|</span>
+        <a href="#">Junte-se a nós</a><span>|</span>
+        <a href="#">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVBAR PRINCIPAL -->
+  <!-- Barra de navegação principal com logotipo e links para páginas principais -->
+  <header class="main-navbar">
+    <div class="logo">
+      <img src="img/logo.svg" alt="Nike logo" />
+    </div>
+
+    <!-- Botão Hambúrguer -->
+    <!-- Este botão é usado para abrir o menu em dispositivos móveis -->
+    <button id="hamburger-btn" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Menu Desktop -->
+    <!-- Menu de navegação visível em telas maiores -->
+    <nav class="menu" id="nav-menu">
+      <a href="#">Lançamentos</a>
+      <a href="#">Ofertas</a>
+      <a href="#">Masculino</a>
+      <a href="#">Feminino</a>
+      <a href="#">Infantil</a>
+      <a href="#">SNKRS</a>
+    </nav>
+
+
+    <!-- Ícones de pesquisa e carrinho -->
+    <div class="nav-icons">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Buscar" />
+      </div>
+      <button class="icon-button">
+        <img src="https://img.icons8.com/ios-glyphs/30/hearts.png" alt="Favoritos" />
+      </button>
+      <button class="icon-button">
+        <img src="https://img.icons8.com/ios/50/shopping-bag--v1.png" alt="Carrinho" />
+      </button>
+    </div>
+  </header>
+
+  <!-- MENU MOBILE -->
+  <!-- Menu lateral para dispositivos móveis que pode ser aberto e fechado -->
+  <div id="mobile-menu" class="mobile-menu">
+    <button class="close-menu" id="close-menu">&times;</button>
+
+    <div class="top-links">
+      <a href="#">Acessibilidade | </a>
+      <a href="#">Nike Journal | </a>
+      <a href="#">Ajuda | </a>
+      <a href="#">Junte-se a nós | </a>
+      <a href="#">Entrar | </a>
+    </div>
+
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Buscar" />
+    </div>
+
+    <a href="#">Lançamentos</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Masculino</a>
+    <a href="#">Feminino</a>
+    <a href="#">Infantil</a>
+    <a href="#">SNKRS</a>
+  </div>
+
+  <!-- BARRA DE PROMOÇÃO -->
+  <!-- Exibe uma mensagem promocional com links -->
+  <section class="promo-bar">
+    <i class="fas fa-chevron-left" id="prevBtn"></i>
+    <div class="promo-text" id="promoText">
+      <!-- Conteúdo do carrossel será injetado aqui -->
+    </div>
+    <i class="fas fa-chevron-right" id="nextBtn"></i>
+  </section>
+
+  <!-- VÍDEO -->
+  <!-- Exibe um vídeo sobre o produto, de largura total -->
+  <section class="video">
+    <video autoplay muted playsinline loop>
+      <source src="img/video.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+  </section>
+
+  <!-- SEÇÃO AIR MAX -->
+  <!-- Informações sobre um produto específico com botões para compra -->
+  <section class="airmax-section container">
+    <div class="airmax-content">
+      <a href="#"><img src="img/nike2.png" alt="Air Max Dn8 Logo" class="airmax-logo" /></a>
+      <p class="airmax-description">
+        Celebre o mundo do Dynamic Air, um sistema de amortecimento revolucionário projetado para proporcionar uma
+        pisada surreal.
+      </p>
+      <div class="airmax-buttons">
+        <a href="#" class="btn">Comprar Dn8</a>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE PROMOÇÕES -->
+  <!-- Exibe vários itens de promoções em uma grade -->
+  <section class="promo-grid">
+    <div class="promo-item" style="background-image: url('img/chuteira.jpg');">
+      <div class="promo-content">
+        <span class="promo-subtitle">Prism Pack</span>
+        <h2 class="promo-title">Roube a cena</h2>
+        <a href="#" class="promo-btn">Ver Coleção</a>
+      </div>
+    </div>
+    <div class="promo-item" style="background-image: url('img/tenis.png');">
+      <div class="promo-content">
+        <span class="promo-subtitle">Fast Pack</span>
+        <h2 class="promo-title">Máxima velocidade</h2>
+        <a href="#" class="promo-btn">Ver Lançamento</a>
+      </div>
+    </div>
+    <div class="promo-item" style="background-image: url('img/moletom.jpg');">
+      <div class="promo-content">
+        <span class="promo-subtitle">Coleção 24.7</span>
+        <h2 class="promo-title">Para ter conforto</h2>
+        <a href="#" class="promo-btn">Ver Coleção</a>
+      </div>
+    </div>
+    <div class="promo-item" style="background-image: url('img/regata.jpg');">
+      <div class="promo-content">
+        <span class="promo-subtitle">Nike Killshot 2</span>
+        <h2 class="promo-title">Para todas as situações</h2>
+        <a href="#" class="promo-btn">Ver Produto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO COM ICÔNES -->
+  <section class="boxes">
+    <h2 class="titulo-box">Ícones Nike</h2>
+  
+    <div class="carousel-wrapper">
+      <button id="box-prevBtn" class="carousel-arrow">&#8249;</button>
+  
+      <div class="boxes-container" id="boxesCarousel">
+        <div class="box"><img src="img/airforce.jpg" alt="Air Force 1" class="imagem-centro" /></div>
+        <div class="box"><img src="img/dunk.png" alt="Nike Dunk" class="imagem-centro" /></div>
+        <div class="box"><img src="img/airjordan1.png" alt="Air Jordan 1" class="imagem-centro" /></div>
+        <div class="box"><img src="img/airmax1.png" alt="Air Max 1" class="imagem-centro" /></div>
+      </div>
+  
+      <button id="box-nextBtn" class="carousel-arrow">&#8250;</button>
+    </div>
+  </section>
+
+  <!-- SEÇÃO PRODUTOS MAIS BUSCADOS -->
+  <!-- Lista de produtos populares com navegação por categorias -->
+  <section class="mais-buscados">
+    <h2>Produtos mais buscados</h2>
+  
+    <nav class="tabs">
+      <a class="titulo-procurados active" href="#">Calçados</a>
+      <a class="titulo-procurados" href="#">Roupas</a>
+      <a class="titulo-procurados" href="#">Acessórios</a>
+      <a class="titulo-procurados" href="#">Esportes</a>
+      <a class="titulo-procurados" href="#">Journal</a>
+      <a class="titulo-procurados" href="#">Promoções</a>
+    </nav>
+  
+    <div class="buscados-grid">
+      <!-- ACCORDION (aparece só no mobile) -->
+      <div class="accordion-mobile">
+        <button class="accordion-btn">Destaques</button>
+        <ul class="accordion-content">
+          <li><a href="#">Tênis casual</a></li>
+          <li><a href="#">Air Jordan 1</a></li>
+          <li><a href="#">Tênis cano alto</a></li>
+          <li><a href="#">Air Max 90</a></li>
+        </ul>
+  
+        <button class="accordion-btn">Lançamentos</button>
+        <ul class="accordion-content">
+          <li><a href="#">Nike Air Max Pulse</a></li>
+          <li><a href="#">Nike Dunk Low</a></li>
+          <li><a href="#">Air Jordan 1 Low</a></li>
+          <li><a href="#">Nike Air Max 97</a></li>
+        </ul>
+  
+        <button class="accordion-btn">Mais vendidos</button>
+        <ul class="accordion-content">
+          <li><a href="#">Air Force 1</a></li>
+          <li><a href="#">Nike Court Vision</a></li>
+          <li><a href="#">Nike Air Max Excee</a></li>
+          <li><a href="#">Nike Revolution 6</a></li>
+        </ul>
+  
+        <button class="accordion-btn">Em destaque</button>
+        <ul class="accordion-content">
+          <li><a href="#">Tênis de corrida</a></li>
+          <li><a href="#">Tênis de basquete</a></li>
+          <li><a href="#">Tênis de skate</a></li>
+          <li><a href="#">Tênis esportivos</a></li>
+        </ul>
+      </div>
+  
+      <!-- LISTAS ORIGINAIS (para desktop) -->
+      <ul class="buscado-desktop">
+        <li><strong>Destaques</strong></li>
+        <li><a href="#">Tênis casual</a></li>
+        <li><a href="#">Air Jordan 1</a></li>
+        <li><a href="#">Tênis cano alto</a></li>
+        <li><a href="#">Air Max 90</a></li>
+      </ul>
+      <ul class="buscado-desktop">
+        <li><strong>Lançamentos</strong></li>
+        <li><a href="#">Nike Air Max Pulse</a></li>
+        <li><a href="#">Nike Dunk Low</a></li>
+        <li><a href="#">Air Jordan 1 Low</a></li>
+        <li><a href="#">Nike Air Max 97</a></li>
+      </ul>
+      <ul class="buscado-desktop">
+        <li><strong>Mais vendidos</strong></li>
+        <li><a href="#">Air Force 1</a></li>
+        <li><a href="#">Nike Court Vision</a></li>
+        <li><a href="#">Nike Air Max Excee</a></li>
+        <li><a href="#">Nike Revolution 6</a></li>
+      </ul>
+      <ul class="buscado-desktop">
+        <li><strong>Em destaque</strong></li>
+        <li><a href="#">Tênis de corrida</a></li>
+        <li><a href="#">Tênis de basquete</a></li>
+        <li><a href="#">Tênis de skate</a></li>
+        <li><a href="#">Tênis esportivos</a></li>
+      </ul>
+    </div>
+  
+    <div class="mostrar-mais">
+      <a href="#">Mostrar mais</a>
+    </div>
+  </section>
+
+  <!-- SEÇÃO CATEGORIAS -->
+  <!-- Lista de outras categorias de produtos da Nike -->
+  <section class="categorias">
+    <h2>Outras categorias</h2>
+    <div class="categorias-grid">
+      <ul>
+        <li><a href="#">Bola de futebol</a></li>
+        <li><a href="#">Bolsa de academia</a></li>
+        <li><a href="#">Bolsa esportiva</a></li>
+        <li><a href="#">Boné preto</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Caneleira</a></li>
+        <li><a href="#">Chinelo</a></li>
+        <li><a href="#">Chinelo masculino</a></li>
+        <li><a href="#">Chuteira botinha</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Estilo casual masculino</a></li>
+        <li><a href="#">Exercícios para fazer em casa</a></li>
+        <li><a href="#">Jaqueta corinthians</a></li>
+        <li><a href="#">Legging feminina</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Tênis casual</a></li>
+        <li><a href="#">Tênis casual masculino</a></li>
+        <li><a href="#">Tênis esportivo</a></li>
+        <li><a href="#">Tênis feminino casual</a></li>
+      </ul>
+    </div>
+    <div class="mostrar-mais">
+      <a href="#">Mostrar mais</a>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <!-- Seção final com links úteis, redes sociais e informações de pagamento -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-section">
+        <div class="accordion-header">Encontre</div>
+        <ul class="encontre-nike">
+          <li><a href="#">Encontre Uma Loja Nike</a></li>
+          <li><a href="#">Cadastre-se para receber novidades</a></li>
+          <li><a href="#">Cartão Presente</a></li>
+          <li><a href="#">Mapa do Site</a></li>
+          <li><a href="#">Nike Journal</a></li>
+          <li><a href="#">Corinthians</a></li>
+          <li><a href="#">Black Friday</a></li>
+          <li><a href="#">Outras categorias</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <div class="accordion-header">Ajuda</div>
+        <ul>
+          <li><strong>Ajuda</strong></li>
+          <li><a href="#">Dúvidas Gerais</a></li>
+          <li><a href="#">Entregas</a></li>
+          <li><a href="#">Pedidos</a></li>
+          <li><a href="#">Devoluções</a></li>
+          <li><a href="#">Pagamentos</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Corporativo</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section footer2">
+        <div class="accordion-header">Ajuda</div>
+        <ul>
+          <li><strong>Ajuda</strong></li>
+          <li><a href="#">Dúvidas Gerais</a></li>
+          <li><a href="#">Entregas</a></li>
+          <li><a href="#">Pedidos</a></li>
+          <li><a href="#">Devoluções</a></li>
+          <li><a href="#">Pagamentos</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Corporativo</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <div class="accordion-header">Sobre a Nike</div>
+        <ul>
+          <li><strong>Sobre a Nike</strong></li>
+          <li><a href="#">Propósito</a></li>
+          <li><a href="#">Sustentabilidade</a></li>
+          <li><a href="#">Sobre a Nike, Inc.</a></li>
+          <li><a href="#">Sobre o Grupo SBF</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <p>Redes sociais</p>
+        <div class="icons">
+          <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" alt="Facebook" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="Instagram" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/youtube-play.png" alt="YouTube" /></a>
+        </div>
+        <p>Formas de pagamento</p>
+        <div class="payments">
+          <img src="img/mastercard.svg" alt="MasterCard" />
+          <img src="img/visa.svg" alt="Visa" />
+          <img src="img/elo.svg" alt="Elo" />
+        </div>
+        <div class="app-links">
+          <img class="lojas" src="img/play.svg" alt="Google Play" />
+          <img src="img/apple.svg" alt="App Store" />
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#">Brasil</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Cookies</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+      <p class="copyright">
+        © 2025 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ:
+        59.546.515/0045-55<br />
+        Rod. Fernão Dias, Km 947.5 - Extrema - MG
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
